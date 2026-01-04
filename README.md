@@ -1,219 +1,74 @@
-> 📌 This document is the canonical version of the NOR Protocol Whitepaper.  
-> 📌 This document provides interpretative and architectural explanations only.  
-> 📌 All binding rules are defined in the core protocol repository and deployed smart contracts.  
-> 📌 In case of any discrepancy, this English version shall prevail.
 
-# ◼ NOR Protocol Whitepaper  
-**Version v1.0**
+# NOR 协议白皮书（中英文版）
+
+![NOR 协议逻辑循环](images/NOR_Protocol_Logic_Cycle.png)
 
 ---
 
-## ◆ 1. Abstract｜Protocol Positioning
-
-NOR Protocol is a smart-contract–driven participation and incentive protocol designed for Web3 ecosystems.  
-Unlike narrative-driven projects or discretionary systems, NOR adopts a **rule-first architecture**, where participation conditions, asset behavior, incentive distribution, and release mechanisms are defined once at the protocol level and executed automatically by smart contracts.
-
-There is no human discretion, no temporary rule changes, and no selective intervention.  
-All participants operate under the same deterministic system logic.
-
-This whitepaper explains the design rationale and system structure of NOR Protocol.  
-📌 All binding rules originate from the core protocol repository and deployed contracts.
-
----
-
-## ◆ 2. Design Philosophy｜System Principles
-
-### ▸ 2.1 Mechanism Over Narrative
-
-In the Web3 era, sustainability is determined by mechanisms, not stories.
-
-Narratives may attract short-term attention, but long-term value retention requires:
-
-→ Verifiable rules  
-→ Transparent incentive sources  
-→ Predictable asset behavior  
-
-NOR Protocol is designed as a **mechanism-driven system**, where incentives emerge from participation rules rather than discretionary allocation.
+## 目录 / Table of Contents
+1. 简介 / Introduction  
+2. 协议定位 / Protocol Positioning  
+3. 设计理念与系统原则 / Design Philosophy & System Principles  
+4. 系统概览 / System Overview  
+5. 核心逻辑循环 / Core Logic Cycle  
+6. 资产生命周期 / Asset Lifecycle  
+7. 激励机制 / Incentive Mechanism  
+8. 治理与升级 / Governance & Upgrade  
+9. 安全与风险 / Security & Risk  
+10. 结语 / Conclusion  
 
 ---
 
-### ▸ 2.2 Protocol-Level Neutrality
+## 1. 简介 / Introduction
+**中文**：  
+NOR 协议是一个以智能合约为核心的协议级参与和激励系统，专为 Web3 社区设计。协议中所有规则自动执行，无需人为干预，从而保证公平、透明和可预测的收益机制。  
 
-NOR Protocol does not rely on:
-
-→ Manual approvals  
-→ Post-launch parameter manipulation  
-→ Centralized administrator authority  
-
-Once deployed, the protocol enforces:
-
-→ Uniform conditions  
-→ Automatic execution  
-→ Non-discriminatory outcomes  
-
-All participant behavior is constrained by code, not human judgment.
+**English**：  
+The NOR Protocol is a smart-contract-driven, protocol-level participation and incentive system designed for Web3 communities. All rules in the protocol are automatically executed without human intervention, ensuring a fair, transparent, and predictable reward mechanism.  
 
 ---
 
-## ◆ 3. System Overview｜Structural Architecture
+## 2. 协议定位 / Protocol Positioning
+**中文**：  
+NOR 协议的核心目标是通过机制而非故事决定项目高度。流量可以快速聚集，但价值留存依赖于系统设计的自动化激励。空投、会员体系和智能合约共同构成参与的闭环，确保参与者的行为得到可验证奖励。  
 
-NOR Protocol operates as a **closed-loop system** composed of:
-
-→ Participation rules  
-→ Asset incubation and growth  
-→ Incentive generation  
-→ Conditional release  
-→ Recommitment or circulation  
-
-🔒 All processes are executed by smart contracts.  
-No step can be skipped, reordered, or manually interrupted.
+**English**：  
+The core goal of the NOR Protocol is to determine the project’s value through mechanisms rather than narrative. Traffic can gather quickly, but value retention relies on automated incentive structures. A combination of airdrops, membership systems, and smart contracts forms a closed loop for participation, ensuring verifiable rewards for participants.  
 
 ---
 
-## ◆ 4. Protocol Logic Loop｜Core Cycle ⟳
+## 3. 设计理念与系统原则 / Design Philosophy & System Principles
+**中文**：  
+- **去中心化执行**：所有参与规则和奖励分配由智能合约完成，无人工干预。  
+- **规则一次写入，自动执行**：参与条件、收益计算和释放机制在部署时确定。  
+- **闭环激励**：参与、孕育、产出、释放形成循环，确保生态健康。  
 
-NOR Protocol follows a deterministic participation loop to ensure predictable asset behavior and controlled circulation dynamics.
-
-### ⟳ Protocol Logic Cycle Diagram
-
-> Insert the logic loop diagram from the core NOR repository here, for example:
->
-> ![经济循环模型]( https://raw.githubusercontent.com/NORprotocol/NOR/main/images/economic_cycle.png.png)
-
-This diagram illustrates the full lifecycle of participation, incubation, yield generation, release, and reintegration.
-
----
-
-## ◆ 5. Asset Lifecycle｜Path Constraints
-
-All assets entering NOR Protocol follow a predefined lifecycle:
-
-→ **Participation Entry**  
-→ **Incubation Phase**  
-→ **Yield Accumulation**  
-→ **Release Conditions**  
-→ **Circulation or Recommitment**
-
-🔒 This lifecycle cannot be accelerated, bypassed, or terminated through manual intervention.
+**English**：  
+- **Decentralized Execution**: All participation rules and reward distributions are handled by smart contracts with no human intervention.  
+- **Write Once, Execute Automatically**: Participation conditions, yield calculations, and release mechanisms are set at deployment.  
+- **Closed-Loop Incentives**: Participation, incubation, output, and release form a loop to maintain ecosystem health.  
 
 ---
 
-## ◆ 6. Incentive Architecture｜Reward Origin
+## 4. 系统概览 / System Overview
+**中文**：  
+NOR 协议由以下核心模块构成：  
+1. **参与模块**：用户注册、空投领取、会员铸造  
+2. **资产管理模块**：资金锁仓、收益计算  
+3. **奖励分配模块**：自动化推荐奖励、收益释放  
+4. **监控与审计模块**：全程透明记录交易和分配情况  
 
-Incentives within NOR Protocol are **participation-derived**, not externally injected.
-
-Core principles:
-
-→ Incentives scale with time and engagement  
-→ Rewards are generated by protocol activity  
-→ No unanchored or discretionary inflation  
-
-Referral or expansion mechanisms, where applicable, are encoded directly into protocol logic and executed automatically.
-
----
-
-## ◆ 7. Participation Layers & Membership｜Role Boundaries
-
-NOR Protocol supports multiple participation layers, including but not limited to:
-
-→ Standard participants  
-→ Extended participation roles  
-→ Membership-based interaction tiers  
-
-Unified enforcement principles:
-
-→ On-chain definition  
-→ Uniform rule application  
-→ No discretionary privileges  
-
-📌 Membership affects **how** participants interact with the protocol, not **which rules apply**.
+**English**：  
+The NOR Protocol consists of the following core modules:  
+1. **Participation Module**: User registration, airdrop claiming, membership minting  
+2. **Asset Management Module**: Fund locking, yield calculation  
+3. **Reward Distribution Module**: Automated referral rewards, yield release  
+4. **Monitoring & Audit Module**: Transparent recording of all transactions and distributions  
 
 ---
 
-## ◆ 8. Yield & Growth Logic｜Deterministic Growth
+## 5. 核心逻辑循环 / Core Logic Cycle
+**中文**：  
+NOR 的核心机制是 **闭环循环**：  
+![经济循环模型](https://raw.githubusercontent.com/NORprotocol/NOR/main/images/economic_cycle.png.png)
 
-Yield generation within NOR Protocol is:
-
-→ Deterministic  
-→ Time-based  
-→ Non-random  
-
-Growth rates, accumulation schedules, and compounding logic are encoded at the protocol level.  
-Participants cannot extract, pause, or alter yields outside predefined conditions.
-
----
-
-## ◆ 9. Swap & Liquidity Constraints｜System Safeguards
-
-To preserve protocol stability:
-
-→ Asset release and swap behavior may be conditionally constrained  
-→ Liquidity access follows predefined thresholds  
-
-⚖ These constraints are **system-level safeguards**, not discretionary controls.
-
----
-
-## ◆ 10. Governance Model｜Minimal Governance
-
-NOR Protocol adopts a **minimal-governance** design:
-
-→ No routine parameter adjustments  
-→ No centralized execution authority  
-→ No privileged intervention paths  
-
-Protocol evolution occurs only through:
-
-→ New contract deployments  
-→ Explicit version transitions  
-→ Rule replacement, not modification  
-
----
-
-## ◆ 11. Security & Auditability｜Audit Perspective 🔒
-
-NOR Protocol emphasizes:
-
-→ Transparent logic  
-→ Predictable execution  
-→ Traceable asset flows  
-
-📌 The separation between rule sources (core repository & contracts) and interpretation sources (this whitepaper) ensures audit integrity.
-
----
-
-## ◆ 12. Versioning & Upgradability｜Evolution Boundaries
-
-This whitepaper corresponds to **NOR Protocol v1.0**.
-
-Upgrade principles:
-
-→ No retroactive modification of existing conditions  
-→ Explicit migration paths for new versions  
-→ Each version exists as an independent protocol instance  
-
----
-
-## ◆ 13. Legal & Risk Disclaimer｜Risk Boundaries ⚖
-
-NOR Protocol is a software-based system composed of smart contracts.
-
-⚖ This document does not constitute financial advice  
-⚖ No returns are guaranteed  
-⚖ No equity or ownership is represented  
-
-Participants interact with the protocol at their own discretion and risk.
-
----
-
-## ◆ 14. References｜Rule Source 📌
-
-→ Core Protocol Repository:  
-https://github.com/NORprotocol/NOR  
-
-📌 All binding rules are defined in the core repository and deployed contracts.  
-📌 This document serves as interpretative reference only.
-
----
-
-**— End of Document —**
