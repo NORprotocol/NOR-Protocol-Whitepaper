@@ -176,6 +176,7 @@ NOR Protocol 为由智能合约组成的软件系统。
 📌 本文件仅作为解释性参考。  
 
 ---
+（NOR冒险岛屿）游戏生态：https://github.com/NORprotocol/NOR-Game-Ecology-
 
 **— 文档结束 —**
 
