@@ -1,4 +1,4 @@
-# 📌 NOR Protocol 白皮书（规范性版本 v1.0）
+# 📌 NOR Protocol 诺尔白皮书（v1.0）
 
 📌 本文件为 NOR Protocol 白皮书的规范性版本。  
 📌 本文件仅提供解释性与架构性说明。  
