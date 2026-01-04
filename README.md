@@ -2,7 +2,7 @@
 
 ---
 
-## 自定义循环图与第一次内容 / Original Diagram & Notes
+## NOR经济循环图 / Original Diagram & Notes
 
 ![经济循环模型](https://raw.githubusercontent.com/NORprotocol/NOR/main/images/economic_cycle.png.png)
 
