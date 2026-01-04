@@ -1,7 +1,16 @@
+# NOR 协议白皮书（中英文合并版）
 
-# NOR 协议白皮书（中英文版）
+---
 
-![NOR 协议逻辑循环](images/NOR_Protocol_Logic_Cycle.png)
+## 自定义循环图与第一次内容 / Original Diagram & Notes
+
+![第一次制作的循环图](images/NOR_Protocol_Logic_Cycle.png)
+
+**中文说明**：  
+第一次制作的图展示了 NOR 协议核心闭环逻辑：参与 → 孕育 → 产出 → 释放 → 再投入，并附有每一步的文案注释，强调用户收益和智能合约自动执行的特点。  
+
+**English Notes**:  
+The original diagram illustrates the NOR Protocol core closed-loop cycle: Participation → Incubation → Output → Release → Reinvestment, with annotations for each step highlighting user rewards and automated smart contract execution.
 
 ---
 
@@ -70,5 +79,7 @@ The NOR Protocol consists of the following core modules:
 ## 5. 核心逻辑循环 / Core Logic Cycle
 **中文**：  
 NOR 的核心机制是 **闭环循环**：  
-![经济循环模型](https://raw.githubusercontent.com/NORprotocol/NOR/main/images/economic_cycle.png.png)
+
+
+
 
