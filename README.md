@@ -4,7 +4,7 @@
 
 ## 自定义循环图与第一次内容 / Original Diagram & Notes
 
-![第一次制作的循环图](images/NOR_Protocol_Logic_Cycle.png)
+![经济循环模型](https://raw.githubusercontent.com/NORprotocol/NOR/main/images/economic_cycle.png.png)
 
 **中文说明**：  
 第一次制作的图展示了 NOR 协议核心闭环逻辑：参与 → 孕育 → 产出 → 释放 → 再投入，并附有每一步的文案注释，强调用户收益和智能合约自动执行的特点。  
