@@ -169,7 +169,8 @@ NOR Protocol 为由智能合约组成的软件系统。
 ---
 
 ## ◆ 14. 参考｜规则来源 📌
-→ 核心协议代码库：  
+→ 核心会员奖励计划：
+
 [https://github.com/NORprotocol/NOR](https://github.com/NORprotocol/NOR)  
 
 📌 所有具有约束力的规则均定义于核心代码库及已部署合约中。  
